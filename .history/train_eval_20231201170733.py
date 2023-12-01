@@ -5,7 +5,7 @@ import torch.nn.functional as F
 from torch import tensor
 from torch.optim import Adam
 from sklearn.model_selection import StratifiedKFold
-from torch_geometric.data import Dataset, DataLoader, DenseDataLoader as DenseLoader
+from torch_geometric.data import Dataset, Batch, DataLoader, DenseDataLoader as DenseLoader
 from gsl import *
 from utils import *
 from param_parser import parameter_parser
